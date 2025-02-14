@@ -6,4 +6,4 @@
 - [x] create section
 - [x] give texts 
 - [x] make trynow button 
-- [ ] give styling
+- [x] give styling

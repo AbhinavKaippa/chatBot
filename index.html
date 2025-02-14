@@ -4,33 +4,67 @@
     <title>Chat Bot</title>
     <style>
       .box {
-        height: 300px; 
+        height: 270px; 
         width: 350px; 
         margin: 200px auto; 
-        border: 2px,solid,black; 
+        border: 1px,solid,rgba(0,0,0,0.2); 
         padding: 40px;
+        font-family: sans-serif;
+        font-weight: 100;
+        color: rgba(0,0,0,0.6);
+      }
+
+      .heading{
+        font-weight: 100;
+        margin-top: 0;
+      }
+
+      .line{
+        height: 2px;
+        width: 35px;
+        background-color: black;
+      }
+
+      .details{
+        line-height: 20px;
+        font-size: 17px;
+        color: rgba(0,0,0,0.45);
       }
 
       .button{
         border-radius: 30px; 
-        background-color: #4184e1; 
-        text-align: centre;
+        background-color:  #4184e1; 
+        text-align: center;
+        padding: 8px;
       }  
+
+      .button > a{
+        font-weight: 100;
+        color: white;
+        text-decoration: none;
+      }
+
+      .description {
+        font-size: 12px;
+        color: rgba(0,0,0,0.3);
+      }
     </style>
   </head>
   <body>
     <div class="box">
-      <h1>Build your first chatbot in 10
-        minutes! <br>___</h1>
-      <p>Have a bot answering questions from customers on your website within 10
+      <h1 class="heading">Build your first chatbot in 10
+        minutes! </h1>
+      <div class="line"></div>
+      <p class="details">Have a bot answering questions from
+        customers on your website within 10
         minutes of signing up for ChatBot.</p>
 
       <div class="button">
-        <h2>TRY NOW →<h2>
+        <a href="#">TRY NOW →<a>
           </div>
 
-          <p>By clicking try now you create an account and agree to our Terms
-            and
+          <p class="description">By clicking try now you create
+            an account and agree to our Terms and
             Conditions and Privacy Policy.</p>
         </div>
       </body>
